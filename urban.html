@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-   <link rel="stylesheet" href="./styles/bootstrap.css">
+    <link rel="stylesheet" href="./styles/bootstrap.css">
     <link rel="stylesheet" href="./scripts/scripts.js">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/fonts/LeckerliOne-Regular.ttf">
@@ -16,6 +16,11 @@
         rel="stylesheet">
     <title>Urban Choma</title>
     <style>
+        p {
+            font-size: 20px;
+            font-style: italic;
+        }
+
         h2 {
             font-family: 'Leckerli One', cursive;
             /* font-family: 'Sonsie One', cursive; */
@@ -25,10 +30,17 @@
 
         h4 {
             font-family: sans-serif;
+            /* font-style:oblique; */
         }
-        body{
+
+        body {
             background-color: #2e211d;
             color: white;
+        }
+
+        hr.style-one {
+            color: white;
+            background-color: white;
         }
     </style>
 </head>
@@ -36,22 +48,23 @@
 <body>
     <section>
         <div class="container">
-            <a href="./index.html"><button class="btn btn-dark " type="button" width="100%" style="color:white;">
-                    BACK
-                </button></a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <a href="./index.html"><button class="btn btn-dark" type="button" width="100%">
+                        <strong> BACK TO OTHER KITCHENS</strong>
+                    </button></a>
+            </nav>
+            <br><br>
             <img src="./images/urbanchoma.png" alt="header" width="100%" height="200px">
             <br><br> <br>
             <div class="row">
                 <div class="col-md-6">
                     <h2 style="text-align: center;">SOUPS</h2>
                     <h4>700 |&nbsp; Chefs soup of the day&nbsp; &nbsp; &nbsp; 300</h4>
-                    <p>Please ask waiter / waitress for details</p>
                     <h4>701 |&nbsp; Chicken stock / broth soup&nbsp; &nbsp; &nbsp; 300</h4>
-                    <p>Please ask waiter / waitress for details</p>
                     <h4>702 |&nbsp; Goat stock / broth&nbsp; &nbsp; &nbsp; 300</h4>
                     <h4>703 |&nbsp; Beef stock / broth&nbsp; &nbsp; &nbsp; 300</h4>
                     <h4>704 |&nbsp; Mixed vegetable soup&nbsp; &nbsp; &nbsp; 300</h4>
-
+                    <p>(Please ask waiter/ waitress for details)</p>
                     <br>
                     <br>
 
@@ -192,6 +205,15 @@
                     </h2>
                     <h4>855 |&nbsp; Urban home-made icecream &nbsp; &nbsp; &nbsp; 400</h4>
                     <h4>856 |&nbsp; Exotic fresh fruit salad with Acacia honey&nbsp; &nbsp; &nbsp; 350</h4>
+                </div>
+            </div>
+            <hr class="style-one">
+            <div class="container" id="">
+                <div class="col-md-12">
+                    <div class="footer text-center">
+                        <p style="color:white"><strong>© 2019 CYNTHIA MURIITHI</strong></p>
+
+                    </div>
                 </div>
             </div>
         </div>
