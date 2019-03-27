@@ -8,22 +8,40 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/bootstrap.css">
     <link rel="stylesheet" href="./scripts/scripts.js">
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="https://fonts.goggleapis.com/css?family=Anton|Lobster">
     <style>
         body {
-            background-color: blanchedalmond;
+            /* background-color: bisque; */
         }
-
+        hr.style-one {
+            border: 0;
+            height: 7px;
+            background: #daa520;
+            /* background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+            background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+            background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+            background-image: -o-linear-gradient(left, #ccc, #333, #ccc); */
+        }
+        h2 {
+            color: #daa520;
+        }
+        h6{
+            color: #daa520;
+            font-size: 20px;
+        }
         .vl {
             border-left: 0.5px solid black;
             height: 330px;
             margin-left: 50%;
             margin-right: auto;
         }
-
+        p {
+            font-size: 20px;
+            font-style: italic;
+        }
         #navbar {
             background-color: transparent;
         }
@@ -31,209 +49,178 @@
     <title>Le French Corner</title>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
-        <a class="navbar-brand" href="index.html">Ananas</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Le French Corner <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Kitchens
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="index.html">Kitchen</a>
-                        <a class="dropdown-item" href="#french">Le French Corner</a>
-                        <a class="dropdown-item" href="stack.html">Stack and Squeeze</a>
-                        <a class="dropdown-item" href="#">Local Cuosine</a>
-                        <a class="dropdown-item" href="#">Aero</a>
-                        <a class="dropdown-item" href="#">Wok D Way</a>
-                        <a class="dropdown-item" href="#">La Paella</a>
-                        <a class="dropdown-item" href="#">Mellanin</a>
-                        <a class="dropdown-item" href="#urbanchoma">urbanchoma</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Foods</a>
-                    </div>
-                </li>
-                <!-- <li class="nav-item">
-                                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                                </li> -->
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
+<body background="./images/back2.jpg">
+
+    <!-- start of navbar -->
+
     <!-- end of navbar -->
     <!-- menu starts -->
+    <br>
     <section id="french">
         <div class="container">
-            <img src="./images/french .png" alt="french" id="headingimg">
-            <hr><br><br><br><br>
+            <a href="./index.html"><button class="btn btn-light" type="button" width="100%">
+                    BACK
+                </button></a>
+            <hr class="style-one">
+            <hr class="style-one">
+            <img src="./images/french .png" alt="french" id="headingimg" height="250px" width="100%">
+            <hr class="style-one"><br><br><br><br>
+
             <div class="f-entree">
-                <!-- start of breakfast -->
-                <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">
-                    <strong>All day
-                        Breakfast</strong></h2><br>
-                <h4> 051 |&nbsp; Classic English breakfast &nbsp; &nbsp; &nbsp; 860</h4>
-                <p>Two Sausages, Two fried eggs, grilled tomato, baked beans and bacon.</p>
-                <h4>052 |&nbsp; Vegetarian Breakfast &nbsp; &nbsp; &nbsp; 730</h4>
-                <p>Two fried egg, baked beans, grilled tomato and cheese, served with bagel</p>
-                <h4>053 |&nbsp; Sunny side up Or scrambled &nbsp; &nbsp; &nbsp; 400</h4>
-                <p>3 eggs with chopped vegetables</p>
-                <!-- end of breakfast -->
-                <hr>
-                <!-- start of Omelettes -->
-                <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">
-                    <strong>Omelettes</strong></h2><br>
-                <h4> 054 |&nbsp; Spinach & feta Omlelette &nbsp; &nbsp; &nbsp; 550</h4>
-                <h4>055 |&nbsp; Mixed peppers & cheddar&nbsp; &nbsp; &nbsp; 550</h4>
-                <h4>056 |&nbsp; Bacon & Cheese &nbsp; &nbsp; &nbsp; 550</h4>
-                <h4> 057 |&nbsp; Mature Cheese &nbsp; &nbsp; &nbsp; 550</h4>
-                <h4>058 |&nbsp; Mushrooms & Basil &nbsp; &nbsp; &nbsp; 550</h4>
-                <br><br><br>
-                <!-- end of Omelettes -->
-                <h6 style="text-align: center"><strong>All day breakfast and omelettes served with salad, butter, jam
-                        and bread (plain or
-                        toasted)</strong>
-                </h6>
-                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- start of breakfast -->
+                        <h2 style="text-align: center; font-family: ' Lobster ', cursive;">
+                            <strong>All day
+                                Breakfast</strong></h2><br>
+                        <h4> 051 |&nbsp; Classic English breakfast &nbsp; &nbsp; &nbsp; 860</h4>
+                        <p>(Two Sausages, Two fried eggs, grilled tomato, baked beans and bacon.)</p>
+                        <h4>052 |&nbsp; Vegetarian Breakfast &nbsp; &nbsp; &nbsp; 730</h4>
+                        <p>(Two fried egg, baked beans, grilled tomato and cheese, served with bagel)</p>
+                        <h4>053 |&nbsp; Sunny side up Or scrambled &nbsp; &nbsp; &nbsp; 400</h4>
+                        <p>(3 eggs with chopped vegetables)</p>
+                        <!-- end of breakfast -->
+                        <!-- start of Omelettes -->
+                        <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">
+                            <strong>Omelettes</strong></h2><br>
+                        <h4> 054 |&nbsp; Spinach & feta Omlelette &nbsp; &nbsp; &nbsp; 550</h4>
+                        <h4>055 |&nbsp; Mixed peppers & cheddar&nbsp; &nbsp; &nbsp; 550</h4>
+                        <h4>056 |&nbsp; Bacon & Cheese &nbsp; &nbsp; &nbsp; &nbsp;550</h4>
+                        <h4> 057 |&nbsp; Mature Cheese &nbsp; &nbsp; &nbsp; 550</h4>
+                        <h4>058 |&nbsp; Mushrooms & Basil &nbsp; &nbsp; &nbsp;550</h4>
+                        <br><br><br>
+                        <!-- end of Omelettes -->
+                        <h6 style="text-align: center"><strong>All day breakfast and omelettes served with salad,
+                                butter, jam
+                                and bread (plain or
+                                toasted)</strong>
+                        </h6>
 
-                <!-- start of Tea -->
-                <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">
-                    <strong>Tea</strong></h2><br>
-                <h4>019 |&nbsp; Kenyan Chai Regular &nbsp; &nbsp; &nbsp; 150</h4>
-                <h4>020 |&nbsp; Kenyan Chai Regular with milk &nbsp; &nbsp; 170</h4>
-                <h4>023 |&nbsp; Earl Grey Regular &nbsp; &nbsp; &nbsp; 200</h4>
-                <h4>027 |&nbsp; Green Tea Regular &nbsp; &nbsp; &nbsp; 170</h4>
-                <h4>029 |&nbsp; Green Tea Large &nbsp; &nbsp; &nbsp; 250</h4>
-                <h4>030 |&nbsp; Iced Tea &nbsp; &nbsp; &nbsp; 260</h4>
-                <h4>035 |&nbsp; Infusion Ibiscus Regular &nbsp; &nbsp; &nbsp; 180</h4>
-                <h4>037 |&nbsp; Masala Regular &nbsp; &nbsp; &nbsp; 200</h4>
-                <h4>038 |&nbsp; Dawa Regular &nbsp; &nbsp; &nbsp; 330</h4>
-                <br><br><br>
-                <!-- end of Tea -->
-                <hr>
+                        <!-- start of Tea -->
+                        <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">
+                            <strong>Tea</strong></h2><br>
+                        <h4>019 |&nbsp; Kenyan Chai Regular &nbsp; &nbsp; &nbsp; 150</h4>
+                        <h4>020 |&nbsp; Kenyan Chai Regular with milk &nbsp; &nbsp; 170</h4>
+                        <h4>023 |&nbsp; Earl Grey Regular &nbsp; &nbsp; &nbsp; 200</h4>
+                        <h4>027 |&nbsp; Green Tea Regular &nbsp; &nbsp; &nbsp; 170</h4>
+                        <h4>029 |&nbsp; Green Tea Large &nbsp; &nbsp; &nbsp; 250</h4>
+                        <h4>030 |&nbsp; Iced Tea &nbsp; &nbsp; &nbsp; 260</h4>
+                        <h4>035 |&nbsp; Infusion Ibiscus Regular &nbsp; &nbsp; &nbsp; 180</h4>
+                        <h4>037 |&nbsp; Masala Regular &nbsp; &nbsp; &nbsp; 200</h4>
+                        <h4>038 |&nbsp; Dawa Regular &nbsp; &nbsp; &nbsp; 330</h4>
+                        <br><br><br>
+                        <!-- end of Tea -->
 
-                <!-- start of coffee -->
-                <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">
-                    <strong>Coffee</strong></h2><br>
-                <h4>003 |&nbsp; Espresso Regular &nbsp; &nbsp; &nbsp; 170</h4>
-                <h4>004 |&nbsp; Espresso Large&nbsp; &nbsp; &nbsp; 200</h4>
-                <h4>009 |&nbsp; Cafe Latte Regular &nbsp; &nbsp; &nbsp; 220</h4>
-                <h4>010 |&nbsp; Cafe Latte Large &nbsp; &nbsp; &nbsp; 300</h4>
-                <h4>011 |&nbsp; Iced Cafe Latte &nbsp; &nbsp; &nbsp; 300</h4>
-                <h4>013 |&nbsp; Capuccino Regular &nbsp; &nbsp; &nbsp; 200</h4>
-                <h4>014 |&nbsp; Capuccino Large &nbsp; &nbsp; &nbsp; 250</h4>
-                <h4>015 |&nbsp; Hot Chocolate Regular &nbsp; &nbsp; &nbsp; 220</h4>
-                <br><br><br>
-                <!-- end of coffee -->
-                <hr>
+                        <!-- start of coffee -->
+                        <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">
+                            <strong>Coffee</strong></h2><br>
+                        <h4>003 |&nbsp; Espresso Regular &nbsp; &nbsp; &nbsp; 170</h4>
+                        <h4>004 |&nbsp; Espresso Large&nbsp; &nbsp; &nbsp; 200</h4>
+                        <h4>009 |&nbsp; Cafe Latte Regular &nbsp; &nbsp; &nbsp; 220</h4>
+                        <h4>010 |&nbsp; Cafe Latte Large &nbsp; &nbsp; &nbsp; 300</h4>
+                        <h4>011 |&nbsp; Iced Cafe Latte &nbsp; &nbsp; &nbsp; 300</h4>
+                        <h4>013 |&nbsp; Capuccino Regular &nbsp; &nbsp; &nbsp; 200</h4>
+                        <h4>014 |&nbsp; Capuccino Large &nbsp; &nbsp; &nbsp; 250</h4>
+                        <h4>015 |&nbsp; Hot Chocolate Regular &nbsp; &nbsp; &nbsp; 220</h4>
+                        <br><br><br>
+                        <!-- end of coffee -->
 
-                <!-- start of Pastries -->
-                <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">
-                    <strong>Pastries</strong></h2><br>
-                <h4>041 |&nbsp; Pain Au Chocolate &nbsp; &nbsp; &nbsp; 240</h4>
-                <h4>042 |&nbsp; Croissant &nbsp; &nbsp; &nbsp; 220</h4>
-                <h4>044 |&nbsp; Cinnamon Roll &nbsp; &nbsp; &nbsp; 240</h4>
-                <h4>045 |&nbsp; Eclairs &nbsp; &nbsp; &nbsp; 220</h4>
-                <h4>046 |&nbsp; Puff pastry Palmiers - plain &nbsp; &nbsp; &nbsp; 150</h4>
-                <h4>047 |&nbsp; Puff pastry Palmiers - coated with chocolate &nbsp; &nbsp; &nbsp; 200</h4>
-                <h4>048 |&nbsp; Puff pastry cones &nbsp; &nbsp; &nbsp; 190</h4>
-                <h4>049 |&nbsp; Butter tea pastry &nbsp; &nbsp; &nbsp; 300</h4>
-                <h4>050 |&nbsp; Macarons &nbsp; &nbsp; &nbsp; 250</h4>
-                <br><br><br>
-                <!-- end of Pastries -->
-                <hr>
+                        <!-- start of Pastries -->
+                        <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">
+                            <strong>Pastries</strong></h2><br>
+                        <h4>041 |&nbsp; Pain Au Chocolate &nbsp; &nbsp; &nbsp; 240</h4>
+                        <h4>042 |&nbsp; Croissant &nbsp; &nbsp; &nbsp; 220</h4>
+                        <h4>044 |&nbsp; Cinnamon Roll &nbsp; &nbsp; &nbsp; 240</h4>
+                        <h4>045 |&nbsp; Eclairs &nbsp; &nbsp; &nbsp; 220</h4>
+                        <h4>046 |&nbsp; Puff pastry Palmiers &nbsp; 150</h4>
+                        <p>  &nbsp; &nbsp; &nbsp;(Plain)</p>
+                        <h4>047 |&nbsp; Puff pastry Palmiers &nbsp; 200</h4>
+                        <p>  &nbsp; &nbsp; &nbsp; (Coated with chocolate)</p>
+                        <h4>048 |&nbsp; Puff pastry cones &nbsp; &nbsp; &nbsp; 190</h4>
+                        <h4>049 |&nbsp; Butter tea pastry &nbsp; &nbsp; &nbsp; 300</h4>
+                        <h4>050 |&nbsp; Macarons &nbsp; &nbsp; &nbsp; 250</h4>
+                        <br><br><br>
+                        <!-- end of Pastries -->
+                    </div>
+                    <br>
+                    <div class="col-md-6">
+                        <!-- start of Puff Pastry pies -->
+                        <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">
+                            <strong>Puff Pastry pies </strong></h2><br>
+                        <h4>080 |&nbsp; Cheese & peppers&nbsp; &nbsp; &nbsp; 360</h4>
+                        <h4>081 |&nbsp; Chicken and Mushrooms &nbsp; &nbsp; &nbsp; 450</h4>
+                        <h4>082 |&nbsp; Steak and onions &nbsp; &nbsp; &nbsp; 450</h4>
+                        <h4>083 |&nbsp; Spinach and cheese &nbsp; &nbsp; &nbsp; 360</h4>
+                        <!-- end of Puff Pastry pies -->
 
-                <!-- start of Bagel, Waffle & pancake -->
-                <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">
-                    <strong>Bagel, Waffle & pancake </strong></h2><br>
-                <h4>059 |&nbsp; Toasted Bagel with butter &nbsp; &nbsp; &nbsp; 140</h4>
-                <h4>060 |&nbsp; Avocado toast with egg&nbsp; &nbsp; &nbsp; 240</h4>
-                <h4>061 |&nbsp; Egg breakfast muffins &nbsp; &nbsp; &nbsp; 360</h4>
-                <h4>062 |&nbsp; Waffles &nbsp; &nbsp; &nbsp; 380</h4>
-                <h4>063 |&nbsp; Fluffy Pancakes &nbsp; &nbsp; &nbsp; 340</h4>
-                <!-- end of Bagel, Waffle & pancake -->
-                <hr>
+                        <!-- start of Milkshakes -->
+                        <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">
+                            <strong>Milkshakes</strong></h2><br>
+                        <h4>010 |&nbsp; Milkshake Espresso &nbsp; &nbsp; &nbsp; 360</h4>
+                        <h4>111 |&nbsp; Milkshake Vanilla&nbsp; &nbsp; &nbsp; 450</h4>
+                        <h4>112 |&nbsp; Milkshake Strawberry &nbsp; &nbsp; &nbsp; 450</h4>
+                        <h4>113 |&nbsp; Milkshake chocolate &nbsp; &nbsp; &nbsp; 360</h4>
+                        <br><br><br>
+                        <!-- end of Milkshakes -->
 
-                <!-- start of Puff Pastry pies -->
-                <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">
-                    <strong>Puff Pastry pies </strong></h2><br>
-                <h4>080 |&nbsp; Cheese & peppers&nbsp; &nbsp; &nbsp; 360</h4>
-                <h4>081 |&nbsp; Chicken and Mushrooms &nbsp; &nbsp; &nbsp; 450</h4>
-                <h4>082 |&nbsp; Steak and onions &nbsp; &nbsp; &nbsp; 450</h4>
-                <h4>083 |&nbsp; Spinach and cheese &nbsp; &nbsp; &nbsp; 360</h4>
-                <!-- end of Puff Pastry pies -->
-                <hr>
+                        <!-- start of Gelato Icecream-->
+                        <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">
+                            <strong>Gelato Icecream
+                                - price per scoop</strong></h2><br>
+                        <h4>120 |&nbsp; Coffee &nbsp; &nbsp; &nbsp; 220</h4>
+                        <h4>121 |&nbsp; Biscuit&nbsp; &nbsp; &nbsp; 220</h4>
+                        <h4>122 |&nbsp; Salted caramel &nbsp; &nbsp; &nbsp; 220</h4>
+                        <h4>124 |&nbsp; Chocolate &nbsp; &nbsp; &nbsp; 220</h4>
+                        <h4>125 |&nbsp; Mango&nbsp; &nbsp; &nbsp; 220</h4>
+                        <h4>126 |&nbsp; Vanilla &nbsp; &nbsp; &nbsp; 220</h4>
+                        <!-- end of Gelato Icecream	-->
 
-                <!-- start of Milkshakes -->
-                <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">
-                    <strong>Milkshakes</strong></h2><br>
-                <h4>010 |&nbsp; Milkshake Espresso &nbsp; &nbsp; &nbsp; 360</h4>
-                <h4>111 |&nbsp; Milkshake Vanilla&nbsp; &nbsp; &nbsp; 450</h4>
-                <h4>112 |&nbsp; Milkshake Strawberry &nbsp; &nbsp; &nbsp; 450</h4>
-                <h4>113 |&nbsp; Milkshake chocolate &nbsp; &nbsp; &nbsp; 360</h4>
-                <br><br><br>
-                <!-- end of Milkshakes -->
-                <hr>
+                        <!-- start of Quiche -->
+                        <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">
+                            <strong>Quiche</strong></h2><br>
+                        <h4>070 |&nbsp; Spinach and feta cheese &nbsp; &nbsp; &nbsp; 640</h4>
+                        <h4>071 |&nbsp; Mixed peppers and cheddar cheese&nbsp; &nbsp; &nbsp; 640</h4>
+                        <h4>072 |&nbsp; Lorraine (Bacon and Cheese) &nbsp; &nbsp; &nbsp; 750</h4>
+                        <h4>073 |&nbsp; Chicken and mushrooms &nbsp; &nbsp; &nbsp; 750</h4>
+                        <br><br><br>
+                        <!-- end of Quiche -->
 
-                <!-- start of Gelato Icecream-->
-                <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">
-                    <strong>Gelato Icecream
-                        - price per scoop</strong></h2><br>
-                <h4>120 |&nbsp; Coffee &nbsp; &nbsp; &nbsp; 220</h4>
-                <h4>121 |&nbsp; Biscuit&nbsp; &nbsp; &nbsp; 220</h4>
-                <h4>122 |&nbsp; Salted caramel &nbsp; &nbsp; &nbsp; 220</h4>
-                <h4>124 |&nbsp; Chocolate &nbsp; &nbsp; &nbsp; 220</h4>
-                <h4>125 |&nbsp; Mango&nbsp; &nbsp; &nbsp; 220</h4>
-                <h4>126 |&nbsp; Vanilla &nbsp; &nbsp; &nbsp; 220</h4>
-                <!-- end of Gelato Icecream	-->
-                <hr>
-
-                <!-- start of Quiche -->
-                <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">
-                    <strong>Quiche</strong></h2><br>
-                <h4>070 |&nbsp; Spinach and feta cheese &nbsp; &nbsp; &nbsp; 640</h4>
-                <h4>071 |&nbsp; Mixed peppers and cheddar cheese&nbsp; &nbsp; &nbsp; 640</h4>
-                <h4>072 |&nbsp; Lorraine (bacon and cheese) &nbsp; &nbsp; &nbsp; 750</h4>
-                <h4>073 |&nbsp; Chicken and mushrooms &nbsp; &nbsp; &nbsp; 750</h4>
-                <br><br><br>
-                <!-- end of Quiche -->
-                <hr>
-
-                <!-- start of cake by slice-->
-                <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">
-                    <strong>Cake by slice</strong></h2><br>
-                <h4>090 |&nbsp; Apple tart &nbsp; &nbsp; &nbsp; 380</h4>
-                <h4>091 |&nbsp; Chocolate truffle&nbsp; &nbsp; &nbsp; 440</h4>
-                <h4>092 |&nbsp; Vanilla sponge with strawberries & cream&nbsp; &nbsp; &nbsp; 420</h4>
-                <h4>093 |&nbsp; Tiramisu &nbsp; &nbsp; &nbsp; 550</h4>
-                <h4>094 |&nbsp; Tarte tatin &nbsp; &nbsp; &nbsp; 380</h4>
-                <h4>095 |&nbsp; Cheese cake oven baked &nbsp; &nbsp; &nbsp; 550</h4>
-                <h4>096 |&nbsp; Mango cheesecake &nbsp; &nbsp; &nbsp; 540</h4>
-                <h4>097 |&nbsp; Lemon tart with maringue &nbsp; &nbsp; &nbsp; 550</h4>
-                <h4>098 |&nbsp; Swiss roll&nbsp; &nbsp; &nbsp; 420</h4>
-                <h4>099 |&nbsp; San Marcos&nbsp; &nbsp; &nbsp; 440</h4>
-                <h4>100 |&nbsp; Mille Feuille &nbsp; &nbsp; &nbsp; 480</h4>
-                <h4>101 |&nbsp; Individual fruit tart with fresh cream or custard cream&nbsp; &nbsp; &nbsp; 440</h4>
-                <h4>102 |&nbsp; Brownies with walnuts &nbsp; &nbsp; &nbsp; 440</h4>
-                <!-- end of cake by slice-->
-                <br><br><br>
-                <hr>
+                        <!-- start of cake by slice-->
+                        <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">
+                            <strong>Cake by slice</strong></h2><br>
+                        <h4>090 |&nbsp; Apple tart &nbsp; &nbsp; &nbsp; 380</h4>
+                        <h4>091 |&nbsp; Chocolate truffle&nbsp; &nbsp; &nbsp; 440</h4>
+                        <h4>092 |&nbsp; Vanilla sponge&nbsp; &nbsp; &nbsp; 420</h4>
+                        <p> &nbsp; &nbsp; &nbsp; &nbsp; (With strawberries & cream)</p>
+                        <h4>093 |&nbsp; Tiramisu &nbsp; &nbsp; &nbsp; 550</h4>
+                        <h4>094 |&nbsp; Tarte tatin &nbsp; &nbsp; &nbsp; 380</h4>
+                        <h4>095 |&nbsp; Cheese cake oven baked &nbsp; &nbsp; &nbsp; 550</h4>
+                        <h4>096 |&nbsp; Mango cheesecake &nbsp; &nbsp; &nbsp; 540</h4>
+                        <h4>097 |&nbsp; Lemon tart with maringue &nbsp; 550</h4>
+                        <h4>098 |&nbsp; Swiss roll&nbsp; &nbsp; &nbsp; 420</h4>
+                        <h4>099 |&nbsp; San Marcos&nbsp; &nbsp; &nbsp; 440</h4>
+                        <h4>100 |&nbsp; Mille Feuille &nbsp; &nbsp; &nbsp; 480</h4>
+                        <h4>101 |&nbsp; Individual fruit tart &nbsp; &nbsp; &nbsp; 440</h4>
+                        <p>&nbsp; &nbsp; &nbsp; &nbsp;( With fresh cream or custard cream)</p>
+                        <h4>102 |&nbsp; Brownies with walnuts &nbsp; &nbsp; &nbsp; 440</h4>
+                        <!-- end of cake by slice-->
+                        <br><br><br>
+                        <!-- start of Bagel, Waffle & pancake -->
+                        <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">
+                            <strong>Bagel, Waffle & pancake </strong></h2><br>
+                        <h4>059 |&nbsp; Toasted Bagel with butter &nbsp; &nbsp; &nbsp; 140</h4>
+                        <h4>060 |&nbsp; Avocado toast with egg&nbsp; &nbsp; &nbsp; 240</h4>
+                        <h4>061 |&nbsp; Egg breakfast muffins &nbsp; &nbsp; &nbsp; 360</h4>
+                        <h4>062 |&nbsp; Waffles &nbsp; &nbsp; &nbsp; 380</h4>
+                        <h4>063 |&nbsp; Fluffy Pancakes &nbsp; &nbsp; &nbsp; 340</h4>
+                        <!-- end of Bagel, Waffle & pancake -->
+                    </div>
+                </div>
             </div>
         </div>
-
-        <p style="text-align: center"><strong>We do take cake orders for any requirment please ask your waiter
-            </strong></p>
+        <h6 style="text-align: center"><strong>We do take cake orders for any requirment please ask your waiter
+            </strong></h6>
+            <hr class="style-one">
 
     </section>
     <!-- end of menu -->
@@ -241,7 +228,6 @@
         <div class="col-md-12">
             <div class="footer text-center">
                 <p style="color:black"><strong>© 2019 CYNTHIA MURIITHI</strong></p>
-
             </div>
         </div>
     </div>

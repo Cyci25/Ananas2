@@ -8,63 +8,47 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/bootstrap.css">
     <link rel="stylesheet" href="./scripts/scripts.js">
     <link rel="stylesheet" href="./styles/style.css">
-    <title>Ananas Center</title>
+    <title>Stack and Squeeze</title>
+    <style>
+        .f-entree {
+            text-align: center;
+        }
+
+        h2 {
+            color: darkgreen;
+        }
+
+        hr.style-one {
+            border: 0;
+            height: 4px;
+            background: darkgreen;
+        }
+
+        hr.style-two {
+            border: 0;
+            height: 1px;
+            background: darkgreen;
+        }
+    </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="#">Ananas</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Stack and Squeeze <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Kitchens
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="kitchen">Kitchen</a>
-                        <a class="dropdown-item" href="french.html">Le French Corner</a>
-                        <a class="dropdown-item" href="#stack">Stack and Squeeze</a>
-                        <a class="dropdown-item" href="#">Local Cuosine</a>
-                        <a class="dropdown-item" href="#">Aero</a>
-                        <a class="dropdown-item" href="#">Wok D Way</a>
-                        <a class="dropdown-item" href="#">La Paella</a>
-                        <a class="dropdown-item" href="#">Mellanin</a>
-                        <a class="dropdown-item" href="#urbanchoma">urbanchoma</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Foods</a>
-                    </div>
-                </li>
-                <!-- <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li> -->
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
     <section id="stack">
-        <div class="container"><br><br><br>
-            <img src="./images/snack and squeez.png" alt="stack" id="headingimg" width="15% ">
-            <hr><br><br><br><br>
+        <div class="container">
+            <a href="./index.html"><button class="btn btn-success" type="button" width="100%">
+                    BACK
+                </button></a><br>
+            <img src="./images/snack and squeez.png" alt="stack" id="headingimg" width="80% " height="400px">
+
+            <br> <br> <br> <br> <br>
             <div class="f-entree">
-                <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">Main Dish /Lunch
-                    or
-                    Dinner</h2>
+                <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive"><strong>Main Dish
+                        /Lunch
+                        or
+                        Dinner</strong></h2>
                 <h4>200 |&nbsp; Bae avocado&nbsp; &nbsp; &nbsp; 750</h4>
                 <p>Grilled chicken,crispy bacon…creamy avocado slices…cherry tomatoes</p>
                 <h4>201 |&nbsp; Skirt steak Salad&nbsp; &nbsp; &nbsp; 700</h4>
@@ -73,8 +57,12 @@
                 <p>Chick Pea,Coriander,bell pepper, avocado cucumber and black beans</p>
                 <h4>203 |&nbsp; Chicken Caeser Salad&nbsp; &nbsp; &nbsp; 750</h4>
                 <p>Grilled chicken with creamy avocado,salad leaves,parmesan shavings and Croutons</p>
+                <hr class="style-two">
+                <br><br>
+
                 <!-- 240 - Stack and Squees dummy 3 - Best for table sharing with caramelized onion,mushrooms and carrots for dips	0 -->
-                <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">Wrap me up </h2>
+                <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive"><strong>Wrap me
+                        up</strong> </h2>
                 <h4>205 |&nbsp; Spicy tuna wrap&nbsp; &nbsp; &nbsp; 700</h4>
                 <p>Tuna roast in chilli mayo with cucumber,lettuce,carrots and avocado</p>
                 <h4>206 |&nbsp; Pork bacon ranch&nbsp; &nbsp; &nbsp; 700</h4>
@@ -83,7 +71,10 @@
                 <p>Hummus spread grilled eggplant and bell peppers with cilantro</p>
                 <h4>208 |&nbsp; Grilled chicken wrap&nbsp; &nbsp; &nbsp; 600</h4>
                 <p>Chicken breast with galicy mayo/tomatoes and lettuce /spicy available</p>
-                <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">Burgers</h2>
+                <hr class="style-two">
+                <br><br>
+                <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">
+                    <strong>Burgers</strong></h2>
                 <h4>232 |&nbsp; Chic Burgerdom&nbsp; &nbsp; &nbsp; 980</h4>
                 <p>Any excuse to pulled bbq chicken loaded with melted cheese and fresh tomato</p>
                 <h4>233 |&nbsp; Burgermiester&nbsp; &nbsp; &nbsp; 980</h4>
@@ -106,8 +97,10 @@
                 <h4>239 |&nbsp; Chicken burger &nbsp; &nbsp; &nbsp; 750</h4>
                 <p>Made of chicken breast marinated with smoked paprika and herbs, loaded with veggies
                     and boom boom sauce</p>
-                <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">Signature
-                    Sandwiches
+                <hr class="style-two">
+                <br><br>
+                <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive"><strong>Signature
+                        Sandwiches</strong>
                 </h2>
                 <h4 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">All signature
                     sandwiches are served with spicy paprika chips or salad</h4>
@@ -141,8 +134,11 @@
                 <p>Pineapple slices,ham and gouda cheese melted on toast</p>
                 <h4>222 |&nbsp; Big Kahuna&nbsp; &nbsp; &nbsp; 790</h4>
                 <p>Grilled chicken breast topped with ham, bacon and melted cheese</p>
-                <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">Sandwich on the
-                    move
+                <hr class="style-two">
+                <br><br>
+                <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive"><strong>Sandwich
+                        on the
+                        move</strong>
                 </h2>
                 <h4>224 |&nbsp; BLT Miniwich&nbsp; &nbsp; &nbsp; 450</h4>
                 <p>Bacon,egg with tomato and lettuce</p>
@@ -152,11 +148,24 @@
                 <p>Good old fashion ham cheese glazed in honey mustard</p>
                 <h4>227 |&nbsp; Greek Fries&nbsp; &nbsp; &nbsp; 350</h4>
                 <p>Cheese,herbs and aioli dip</p>
-                <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive">ADD ON</h2>
+                <hr class="style-two">
+                <br><br>
+                <h2 style="text-align: center; font-family:Brush Script MT, Brush Script Std, cursive"><strong>ADD
+                        ON</strong></h2>
                 <h4>228 |&nbsp; House salad&nbsp; &nbsp; &nbsp; 250</h4>
                 <h4>229 |&nbsp; Paprika fries&nbsp; &nbsp; &nbsp; 250</h4>
                 <h4>230 |&nbsp;Extra Bacon &nbsp; &nbsp; &nbsp; 200</h4>
                 <h4>231 |&nbsp; Extra Ham&nbsp; &nbsp; &nbsp; 200</h4>
+                <br><br>
+                <hr class="style-one">
+                <div class="container" id="">
+                    <div class="col-md-12">
+                        <div class="footer text-center">
+                            <p style="color:black"><strong>© 2019 CYNTHIA MURIITHI</strong></p>
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

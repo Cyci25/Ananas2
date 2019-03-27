@@ -8,64 +8,174 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
     <link rel="stylesheet" href="./scripts/scripts.js">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Ananas Center</title>
+    <style>
+        .head {
+            background-color: black;
+            font-size: 70%;
+            color: white;
+            font-family: 'Times New Roman', Times, serif
+        }
+
+        .frenchindex {
+            /* background-color: aqua; */
+            position: relative;
+            width: 100%;
+            height: auto;
+            min-height: 10rem;
+            padding: 20 rem 0;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+            margin: 0%;
+            text-align: center;
+            padding-top: 40px;
+            padding-bottom: auto;
+        }
+
+        .urbanindex {
+            /* background-color: red; */
+            position: relative;
+            width: 100%;
+            height: 100;
+            min-height: 10rem;
+            padding: 10 rem 0;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+            margin: 0%;
+            text-align: center;
+            padding-top: 40px;
+            padding-bottom: auto;
+        }
+
+        #squeez {
+            background-color: burlywood;
+        }
+
+        #urban {
+            background-color: burlywood;
+        }
+
+        #wok {
+            background-color: burlywood;
+        }
+
+        #french {
+            background-color: burlywood;
+        }
+
+        #Aero {
+            background-color: burlywood;
+        }
+
+        h3 {
+            font-family: 'Alfa Slab One', cursive;
+        }
+
+        a {
+            color: black;
+        }
+
+        .jumbotron {
+            background-color: white;
+        }
+
+        body {
+            background-color: white;
+        }
+    </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="#">Ananas</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Kitchens
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <!-- <a class="dropdown-item" href="kitchen">Kitchen</a> -->
-                        <a class="dropdown-item" href="french.html">Le French Corner</a>
-                        <a class="dropdown-item" href="#">Stack and Squeeze</a>
-                        <a class="dropdown-item" href="#">Local Cuosine</a>
-                        <a class="dropdown-item" href="#">Aero</a>
-                        <a class="dropdown-item" href="#">Wok D Way</a>
-                        <a class="dropdown-item" href="#">La Paella</a>
-                        <a class="dropdown-item" href="#">Mellanin</a>
-                        <a class="dropdown-item" href="#urbanchoma">urbanchoma</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Foods</a>
-                    </div>
-                </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li> -->
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+    <!-- start of kitchens -->
+    <div class="container">
+        <div class="jumbotron">
+            <div class="head">
+                <h1
+                    style="text-align:center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+                    <strong>KITCHENS</strong></h1>
+            </div>
         </div>
-    </nav>
+        <!-- <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="hovereffect">
+                <img class="img-responsive" src="./images/aero.png" alt="" width="100%" height="50px">
+                <div class="overlay">
+                    <h2>Hover effect 3</h2>
+                    <a class="info" href="Aero.html">link here</a>
+                </div>
+            </div>
+        </div> -->
+        <div class="row">
+            <div class="col-md-3">
+                <a href="./french.html">
+                    <div class="jumbotron">
+                        <div id="french">
+                            <div class="frenchindex">
+                                <h3>Le French Corner</h3>
+
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-3">
+                <a href="./stack.html">
+                    <div class="jumbotron">
+                        <div id="squeez">
+                            <div class="urbanindex">
+                                <h3>Snack and Squeeze</h3>
+
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="./urban.html">
+                    <div class="jumbotron">
+                        <div id="urban">
+                            <div class="frenchindex">
+                                <h3>Urban Choma</h3>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="./wok.html">
+                    <div class="jumbotron">
+                        <div id="wok">
+                            <div class="urbanindex">
+                                <h3>Wok D Way</h3>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div><br>
+
+        <div class="row">
+            <div class="col-md-3">
+                <a href="./Aero.html">
+                    <div class="jumbotron">
+                        <div id="Aero">
+                            <div class="urbanindex">
+                                <h3>Aero Fish and Chicken</h3>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>  
 </body>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
 
 </html>
